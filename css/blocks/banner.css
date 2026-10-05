@@ -1,6 +1,7 @@
 .banner {
     padding-top: 96px;
     position: relative;
+    height: 100vh;
 }
 
 .banner__title {
@@ -35,6 +36,5 @@
     left: 0;
     width: 100%;
     z-index: -1;
-    height: calc(100vh - 67px);
 }
 

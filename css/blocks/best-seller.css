@@ -1,0 +1,25 @@
+.best-seller {
+    padding-top: 50px;
+    margin-bottom: 100px;
+}
+
+.best-seller__title {
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0;
+}
+
+.best-seller__note {
+    font-size: 24px;
+    text-transform: uppercase;
+    padding-left: 63px;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.best-seller__wrapper {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
