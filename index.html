@@ -11,31 +11,45 @@
 <body>
     <header class="header">
         <div class="container">
-            <nav class="header__nav">
-                <ul class="nav-list">
-                    <li class="nav-list__item">
-                        <a href="#" class="nav-list__link">Главная</a>
-                    </li>
-                    <li class="nav-list__item">
-                        <a href="#" class="nav-list__link">Книги</a>
-                    </li>
-                    <li class="nav-list__item">
-                        <a href="#" class="nav-list__link">О нас</a>
-                    </li>
-                    <div class="nav-list__right">
+            <div class="header__wrapper">
+                <a href="#" class="header__logo">
+                    <span class="header__logo-text">Paper&Page</span>
+                    <span class="header__logo-note">Подарки любимым</span>
+                </a>
+                <nav class="header__nav">
+                    <ul class="nav-list">
                         <li class="nav-list__item">
-                            <a href="#" class="nav-list__link">Доставка</a>
+                            <a href="#" class="nav-list__link">Главная</a>
                         </li>
                         <li class="nav-list__item">
-                            <a href="#" class="nav-list__link">Доставка</a>
+                            <a href="#" class="nav-list__link">Книги</a>
                         </li>
-                    </div>
-                </ul>
-            </nav>
+                        <li class="nav-list__item">
+                            <a href="#" class="nav-list__link">О нас</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__right">
+                    <a href="#" class="header__right-link">Доставка</a>
+                    <a href="#" class="header__right-link">Корзина</a>
+                </div>
+            </div>
         </div>
     </header>
     <main>
-
+        <section class="banner">
+            <div class="container">
+                <div class="banner__wrapper">
+                    <picture>
+                        <img class="banner__img" src="images/img-banner.png" srcset="images/img-banner@2x.png"
+                            alt="картинка баннера" width="1440" height="800">
+                    </picture>
+                    <h1 class="banner__title">Тысячи миров в одной доставке</h1>
+                    <p class="banner__text">Бумажные книги, которые пахнут типографией и приключениямиждут Вас.</p>
+                    <button class="banner__btn">В каталог</button>
+                </div>
+            </div>
+        </section>
     </main>
     <footer class="footer">
 

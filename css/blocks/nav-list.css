@@ -1,0 +1,6 @@
+.nav-list {
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
