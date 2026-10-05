@@ -1,5 +1,12 @@
 .footer {
     background-color: rgba(32, 59, 44, 1);
+    padding: 45px 0;
+}
+
+.footer__wrapper {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 42px;
 }
 
 .footer__logo {
@@ -19,4 +26,62 @@
     text-transform: uppercase;
     font-size: 10px;
     font-weight: 200;
+}
+
+.footer__left {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: flex-start;
+}
+
+.footer__socials {
+    display: flex;
+    gap: 15px;
+}
+
+.footer__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.footer__name {
+    font-size: 16px;
+    color: rgba(242, 226, 208, 1);
+    text-transform: uppercase;
+}
+
+.footer__contact {
+    color: rgba(242, 226, 208, 1);
+    text-transform: uppercase;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-weight: 200;
+}
+
+.footer__text {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 200;
+    width: 230px;
+    color: rgba(242, 226, 208, 1);
+}
+
+.right {
+    margin-left: auto;
+}
+
+.footer__link {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 200;
+    color: rgba(242, 226, 208, 1);
+    text-align: right;
+}
+
+.footer__bottom {
+    display: flex;
+    gap: 27px;
 }
