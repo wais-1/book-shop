@@ -20,6 +20,7 @@ body{
     display: flex;
     gap: 40px;
     flex-wrap: wrap;
+    margin-bottom: 100px;
 }
 
 .book_title {
