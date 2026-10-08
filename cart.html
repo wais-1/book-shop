@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Книжный магазин</title>
+    <title>Корзина</title>
 </head>
 
 <body>
@@ -19,7 +19,7 @@
                 <nav class="header__nav">
                     <ul class="nav-list">
                         <li class="nav-list__item">
-                            <a href="#" class="nav-list__link">Главная</a>
+                            <a href="index.html" class="nav-list__link">Главная</a>
                         </li>
                         <li class="nav-list__item">
                             <a href="catalog.html" class="nav-list__link">Книги</a>
@@ -31,55 +31,68 @@
                 </nav>
                 <div class="header__right">
                     <a href="#" class="header__right-link">Доставка</a>
-                    <a href="cart.html" class="header__right-link">Корзина</a>
+                    <a href="#" class="header__right-link">Корзина</a>
                 </div>
             </div>
         </div>
     </header>
     <main>
-        <section class="banner">
+        <section class="cart">
             <div class="container">
-                <div class="banner__wrapper">
-                    <picture>
-                        <img class="banner__img" src="images/img-banner.png" srcset="images/img-banner@2x.png"
-                            alt="картинка баннера" width="1440" height="800">
-                    </picture>
-                    <h1 class="banner__title">Тысячи миров в одной доставке</h1>
-                    <p class="banner__text">Бумажные книги, которые пахнут типографией и приключениямиждут Вас.</p>
-                    <a href="#catalog" class="banner__btn">В каталог</a>
+                <h1 class="cart__title">Корзина</h1>
+                <span class="cart__note">Всего товаров: 3</span>
+                <div class="cart__main">
+                    <div class="cart__wrapper">
+                        <picture>
+                            <img src="images/wayofspirit.png" alt="картинка книги" class="cart__wrapper-img" width="172"
+                                height="237">
+                        </picture>
+                        <div class="cart__inner">
+                            <h2 class="cart__inner-title">The way of The Spirit</h2>
+                            <span class="cart__inner-note">Jeremy Sims</span>
+                            <span class="cart__inner-price">299₽</span>
+                        </div>
+                        <div class="cart__quantity">
+                            <button class="cart__quantity-btn">-</button>
+                            <span class="cart__quantity-sum">1</span>
+                            <button class="cart__quantity-btn">+</button>
+                        </div>
+                    </div>
+                    <div class="cart__wrapper">
+                        <picture>
+                            <img src="images/paperpalace.png" alt="картинка книги" class="cart__wrapper-img" width="172"
+                                height="237">
+                        </picture>
+                        <div class="cart__inner">
+                            <h2 class="cart__inner-title">The paper palace</h2>
+                            <span class="cart__inner-note">Miranda Cowley Heller</span>
+                            <span class="cart__inner-price">999₽</span>
+                        </div>
+                        <div class="cart__quantity">
+                            <button class="cart__quantity-btn">-</button>
+                            <span class="cart__quantity-sum">1</span>
+                            <button class="cart__quantity-btn">+</button>
+                        </div>
+                    </div>
+                    <div class="cart__wrapper">
+                        <picture>
+                            <img src="images/longesttalk.png" alt="картинка книги" class="cart__wrapper-img" width="172"
+                                height="237">
+                        </picture>
+                        <div class="cart__inner last">
+                            <h2 class="cart__inner-title">The longest talk</h2>
+                            <span class="cart__inner-note">Avery Baines</span>
+                            <span class="cart__inner-price">499₽</span>
+                        </div>
+                        <div class="cart__quantity">
+                            <button class="cart__quantity-btn">-</button>
+                            <span class="cart__quantity-sum">1</span>
+                            <button class="cart__quantity-btn">+</button>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </section>
-        <section class="best-seller" id="catalog">
-            <div class="container">
-                <h2 class="best-seller__title">Наши Бестселлеры</h2>
-                <span class="best-seller__note">Топ книги месяца. Выбор миллионов читателей</span>
-                <div class="best-seller__wrapper">
-                    <a href="card.html" class="book_card">
-                        <img src="/images/beautifulworld.png" alt="">
-                        <p class="book_title">O Beautiful <br> World</p>
-                        <p class="book_author">Jung Yun</p>
-                        <p class="book_price">599₽</p>
-                    </a>
-                    <a href="#" class="book_card">
-                        <img src="/images/crawdadssing.png" alt="">
-                        <p class="book_title">Where the <br> Crawdads sing</p>
-                        <p class="book_author">Delia Owens</p>
-                        <p class="book_price">999₽</p>
-                    </a>
-                    <a href="#" class="book_card">
-                        <img src="/images/longesttalk.png" alt="">
-                        <p class="book_title">The Longest <br> Talk</p>
-                        <p class="book_author">Avery Baines</p>
-                        <p class="book_price">499₽</p>
-                    </a>
-                    <a href="#" class="book_card">
-                        <img src="/images/secrethistory.png" alt="">
-                        <p class="book_title">The secret <br>History</p>
-                        <p class="book_author">Donna Tartt</p>
-                        <p class="book_price">699₽</p>
-                    </a>
-                </div>
+                <span class="cart__total">Итого: 1797₽</span>
+                <button class="cart__btn">Оформить доставку</button>
             </div>
         </section>
     </main>
